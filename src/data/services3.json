@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/01.jpg",
+    "icon": "icon flaticon-house-plan",
+    "title": "Project Planning",
+    "content": "We provide clear, efficient, and customized project planning from day one."
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/02.jpg",
+    "icon": "icon flaticon-renovation",
+    "title": "Quality Renovation",
+    "content": "Transforming your spaces with high-end materials and professional craftsmanship."
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/03.jpg",
+    "icon": "icon flaticon-sketch",
+    "title": "Smart Design",
+    "content": "We blend aesthetic appeal with functionality to meet your unique needs."
+  }
+]

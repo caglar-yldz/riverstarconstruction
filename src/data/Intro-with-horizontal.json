@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "first": "Building the Future",
+      "second": "With Riverstar Excellence"
+    },
+    "content": {
+      "first": "From concept to creation, we deliver top-tier construction solutions",
+      "second": "with precision, passion, and reliability."
+    },
+    "image": "/assets/img/slid/n/home1.jpg"
+  },
+  {
+    "id": 2,
+    "title": {
+      "first": "Innovative Spaces",
+      "second": "Tailored to Your Vision"
+    },
+    "content": {
+      "first": "Riverstar designs and builds modern, functional spaces",
+      "second": "where quality meets timeless architecture."
+    },
+    "image": "/assets/img/slid/n/home2.jpg"
+  },
+  {
+    "id": 3,
+    "title": {
+      "first": "Residential & Commercial",
+      "second": "Construction Experts"
+    },
+    "content": {
+      "first": "Whether it's your dream home or business project,",
+      "second": "Riverstar brings it to life with integrity and craftsmanship."
+    },
+    "image": "/assets/img/slid/n/home3.jpg"
+  },
+  {
+    "id": 4,
+    "title": {
+      "first": "Trusted Since Day One",
+      "second": "By Clients Across the Region"
+    },
+    "content": {
+      "first": "Riverstar is built on trust, quality, and client satisfaction.",
+      "second": "We shape skylines — and build long-term partnerships."
+    },
+    "image": "/assets/img/slid/n/home4.jpg"
+  }
+]
