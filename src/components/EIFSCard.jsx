@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function ConcreteFormworkCard() {
+export default function EIFSCard() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -9,12 +9,11 @@ export default function ConcreteFormworkCard() {
       <div style={wrapperStyle}>
         <div style={cardStyle}>
           <div style={textStyle}>
-            <h3 style={titleStyle}>Concrete Formwork</h3>
+            <h3 style={titleStyle}>EIFS</h3>
             <p style={descStyle}>
-              We provide full-scope concrete formwork services with a focus on
-              precision, efficiency, and safety. From footings and foundation
-              walls to columns, beams, and slabs, our team ensures every form is
-              accurately set and cleanly stripped...
+              Stucco System (EIFS – Exterior Insulation and Finish System) We
+              specialize in high-performance EIFS applications designed to
+              provide both exterior insulation and seamless finishing...
             </p>
             <button style={buttonStyle} onClick={() => setIsOpen(true)}>
               Learn more
@@ -44,22 +43,26 @@ export default function ConcreteFormworkCard() {
             {/* Scrollable Modal Body */}
             <div style={modalBody} className="modal-scroll">
               <p style={modalText}>
-                We provide full-scope concrete formwork services with a focus on
-                precision, efficiency, and safety. From footings and foundation
-                walls to columns, beams, and slabs, our team ensures every form
-                is accurately set and cleanly stripped.
+                Stucco System (EIFS – Exterior Insulation and Finish System) We
+                specialize in high-performance EIFS applications designed to
+                provide both exterior insulation and seamless finishing.
               </p>
 
               <p style={modalText}>
-                We manage formwork installation with strict attention to
-                dimensional control, site tolerances, and sequencing
-                requirements — ensuring consistency across all structural
-                elements.
+                Our team applies multi-layer systems — including insulation
+                boards, mesh reinforcement, base coat, and finish coat — using
+                approved materials and methods for both traditional and acrylic
+                stucco.
               </p>
-
               <p style={modalText}>
-                With many years of on-site experience, we ensure smooth workflow
-                and reliable, specification-compliant results on every project.
+                We maintain strict control over surface preparation, adhesion
+                quality, curing cycles, and finish texture to ensure
+                long-lasting performance and uniform appearance.
+              </p>
+              <p style={modalText}>
+                With extensive experience across residential and commercial
+                projects, we deliver EIFS solutions that meet thermal efficiency
+                targets while achieving a clean, modern façade.
               </p>
 
               <div style={sectionDivider}></div>
@@ -67,30 +70,31 @@ export default function ConcreteFormworkCard() {
               <div style={infoGrid}>
                 <div style={infoCard}>
                   <div style={iconCircle}>🏢</div>
-                  <h4 style={infoTitle}>Commercial Projects</h4>
+                  <h4 style={infoTitle}>Residential Applications</h4>
                   <p style={infoDesc}>
-                    We deliver efficient and code-compliant formwork systems for
-                    multi-storey buildings, plazas, and commercial sites.
+                    We apply EIFS systems to new homes and renovations to
+                    improve exterior aesthetics and thermal efficiency while
+                    protecting the building envelope.
                   </p>
                 </div>
 
                 <div style={infoCard}>
                   <div style={iconCircle}>🏠</div>
-                  <h4 style={infoTitle}>Residential Projects</h4>
+                  <h4 style={infoTitle}>Commercial Applications</h4>
                   <p style={infoDesc}>
-                    From custom homes to large-scale housing developments, we
-                    provide clean and precise formwork for all types of
-                    residential concrete work.
+                    From retail units to low-rise office buildings, our EIFS
+                    solutions meet performance specs for energy code compliance,
+                    moisture control, and visual uniformity.
                   </p>
                 </div>
 
                 <div style={infoCard}>
                   <div style={iconCircle}>🏭</div>
-                  <h4 style={infoTitle}>Industrial Projects</h4>
+                  <h4 style={infoTitle}>Industrial Applications</h4>
                   <p style={infoDesc}>
-                    We execute durable and load-bearing formwork solutions for
-                    foundations, slabs, pits, and equipment pads in industrial
-                    facilities.
+                    We deliver EIFS cladding on select light industrial or
+                    institutional projects where insulation, weather protection,
+                    and low-maintenance finishes are essential.
                   </p>
                 </div>
               </div>

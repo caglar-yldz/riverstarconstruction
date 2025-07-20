@@ -1,6 +1,8 @@
 // pages/what-we-do.tsx
 import React from "react";
 import ConcreteFormworkCard from "../components/ConcreteFormworkCard";
+import MasonryCard from "../components/MasonryCard";
+import EIFSCard from "../components/EIFSCard";
 
 import MainLayout from "../layouts/main";
 import PageHeader from "../components/Page-header";
@@ -19,12 +21,14 @@ const WhatWeDo = () => {
       <WorkHeader
         center
         title={{
-          first: "Crafting Durable Structures",
-          second: "with Precision and Purpose",
+          first: "Complete Building ",
+          second: "Envelope Solutions",
         }}
-        content="We specialize in high-quality formwork, masonry, stucco systems, and cladding solutions. With a dedication to craftsmanship and detail, our portfolio reflects a commitment to structural integrity, timeless design, and reliable execution across residential and commercial projects."
+        content="From structural foundations to exterior finishes, we provide comprehensive subcontracting services in formwork, masonry, and EIFS applications. Our work reflects precision, safety, and long-term performance across all project types."
       />
       <ConcreteFormworkCard />
+      <MasonryCard />
+      <EIFSCard />
     </MainLayout>
   );
 };

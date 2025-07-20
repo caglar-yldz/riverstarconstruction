@@ -34,7 +34,12 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
         <div className="container">
           <Link href="/home5">
             <a className={`logo ${logoClass && logoClass}`}>
-              <img src={appData.lightLogo} alt="logo" ref={logoRef} />
+              <img
+                src={appData.lightLogo}
+                alt="logo"
+                style={{ marginLeft: "50px", width: "200px" }} // ← işte bu kısım
+                ref={logoRef}
+              />{" "}
             </a>
           </Link>
 

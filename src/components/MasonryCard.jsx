@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function ConcreteFormworkCard() {
+export default function MasonryCard() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -9,12 +9,12 @@ export default function ConcreteFormworkCard() {
       <div style={wrapperStyle}>
         <div style={cardStyle}>
           <div style={textStyle}>
-            <h3 style={titleStyle}>Concrete Formwork</h3>
+            <h3 style={titleStyle}>Masonry</h3>
             <p style={descStyle}>
-              We provide full-scope concrete formwork services with a focus on
-              precision, efficiency, and safety. From footings and foundation
-              walls to columns, beams, and slabs, our team ensures every form is
-              accurately set and cleanly stripped...
+              With many years of hands-on experience, we provide fast and
+              reliable masonry services using concrete block, brick, and
+              architectural stone — for both structural and architectural
+              applications...
             </p>
             <button style={buttonStyle} onClick={() => setIsOpen(true)}>
               Learn more
@@ -51,15 +51,11 @@ export default function ConcreteFormworkCard() {
               </p>
 
               <p style={modalText}>
-                We manage formwork installation with strict attention to
-                dimensional control, site tolerances, and sequencing
-                requirements — ensuring consistency across all structural
-                elements.
-              </p>
-
-              <p style={modalText}>
-                With many years of on-site experience, we ensure smooth workflow
-                and reliable, specification-compliant results on every project.
+                Our crews are known for quick mobilization, steady workflow, and
+                clean, detail-focused execution. We stay fully aligned with
+                client expectations, technical specifications, and site
+                timelines, making us a trusted partner across all types of
+                projects.
               </p>
 
               <div style={sectionDivider}></div>
@@ -67,30 +63,31 @@ export default function ConcreteFormworkCard() {
               <div style={infoGrid}>
                 <div style={infoCard}>
                   <div style={iconCircle}>🏢</div>
-                  <h4 style={infoTitle}>Commercial Projects</h4>
+                  <h4 style={infoTitle}>Concrete Block</h4>
                   <p style={infoDesc}>
-                    We deliver efficient and code-compliant formwork systems for
-                    multi-storey buildings, plazas, and commercial sites.
+                    We install load-bearing and non-load-bearing block systems
+                    with precision, ensuring full compliance with structural
+                    drawings and site tolerances.
                   </p>
                 </div>
 
                 <div style={infoCard}>
                   <div style={iconCircle}>🏠</div>
-                  <h4 style={infoTitle}>Residential Projects</h4>
+                  <h4 style={infoTitle}>Brick</h4>
                   <p style={infoDesc}>
-                    From custom homes to large-scale housing developments, we
-                    provide clean and precise formwork for all types of
-                    residential concrete work.
+                    Our brickwork services deliver consistent bond patterns,
+                    clean joint finishing, and long-term durability across both
+                    interior and exterior applications.
                   </p>
                 </div>
 
                 <div style={infoCard}>
                   <div style={iconCircle}>🏭</div>
-                  <h4 style={infoTitle}>Industrial Projects</h4>
+                  <h4 style={infoTitle}>Architectural Stone</h4>
                   <p style={infoDesc}>
-                    We execute durable and load-bearing formwork solutions for
-                    foundations, slabs, pits, and equipment pads in industrial
-                    facilities.
+                    We install architectural stone elements with close attention
+                    to alignment, anchoring details, and facade integration in
+                    both modern and classical designs.
                   </p>
                 </div>
               </div>

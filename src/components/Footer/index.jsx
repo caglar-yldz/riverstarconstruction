@@ -98,7 +98,13 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src="/assets/img/logo-light.png" alt="" />
+                <img src="/assets/img/logoson.svg" alt="" />
+                <style jsx>{`
+                  .logo img {
+                    width: 200px;
+                    margin-left: 20px;
+                  }
+                `}</style>
               </div>
               <div className="social">
                 <Link href="#">
