@@ -33,7 +33,7 @@ const WorkThreeColumn = () => {
         {/* Proje Kartları */}
         <div className="row gallery">
           {portofolio.map((project) => {
-            const { id, img, title, categories } = project;
+            const { id, type, img, src, title, categories } = project;
             const categoryClasses = categories ? categories.join(" ") : "";
 
             return (
@@ -43,16 +43,29 @@ const WorkThreeColumn = () => {
               >
                 <div className="item">
                   <div className="img">
-                    <img src={img} alt={title || "Untitled Project"} />
+                    {type === "video" ? (
+                      <video
+                        src={src}
+                        controls
+                        autoPlay
+                        muted
+                        loop
+                        style={{ width: "100%", borderRadius: "8px" }}
+                      />
+                    ) : (
+                      <img
+                        src={img}
+                        alt={title || "Untitled Project"}
+                        style={{ width: "100%", borderRadius: "8px" }}
+                      />
+                    )}
                   </div>
                   <div className="cont">
                     <h5>
-                      <Link href="/project-details">
-                        {title || "Untitled Project"}
-                      </Link>
+                      <Link href="/project-details">{title || ""}</Link>
                     </h5>
-                    <span>Architecture</span>
-                    <span>Modern</span>
+                    <span></span>
+                    <span></span>
                   </div>
                 </div>
               </div>

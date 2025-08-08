@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { GiBrickWall, GiBrickPile, GiStonePile } from "react-icons/gi";
+import { FaThLarge } from "react-icons/fa";
 
 export default function MasonryCard() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +37,12 @@ export default function MasonryCard() {
         <div style={modalBackdrop} onClick={() => setIsOpen(false)}>
           <div style={modalContainer} onClick={(e) => e.stopPropagation()}>
             <div style={modalHeader}>
-              <h2 style={modalTitle}>🧱 Concrete Formwork</h2>
+              <h2 style={modalTitle}>
+                <span style={{ marginRight: 8 }}>
+                  <GiBrickWall color="#c7a254" size={24} />
+                </span>{" "}
+                Concrete Formwork
+              </h2>
               <button style={closeButton} onClick={() => setIsOpen(false)}>
                 ✕
               </button>
@@ -62,7 +69,9 @@ export default function MasonryCard() {
 
               <div style={infoGrid}>
                 <div style={infoCard}>
-                  <div style={iconCircle}>🏢</div>
+                  <div style={iconCircle}>
+                    <FaThLarge color="#c7a254" size={26} />
+                  </div>{" "}
                   <h4 style={infoTitle}>Concrete Block</h4>
                   <p style={infoDesc}>
                     We install load-bearing and non-load-bearing block systems
@@ -72,7 +81,9 @@ export default function MasonryCard() {
                 </div>
 
                 <div style={infoCard}>
-                  <div style={iconCircle}>🏠</div>
+                  <div style={iconCircle}>
+                    <GiBrickPile color="#c7a254" size={32} />
+                  </div>
                   <h4 style={infoTitle}>Brick</h4>
                   <p style={infoDesc}>
                     Our brickwork services deliver consistent bond patterns,
@@ -82,7 +93,9 @@ export default function MasonryCard() {
                 </div>
 
                 <div style={infoCard}>
-                  <div style={iconCircle}>🏭</div>
+                  <div style={iconCircle}>
+                    <GiStonePile color="#c7a254" size={32} />
+                  </div>{" "}
                   <h4 style={infoTitle}>Architectural Stone</h4>
                   <p style={infoDesc}>
                     We install architectural stone elements with close attention
@@ -193,7 +206,7 @@ const modalContainer = {
   maxWidth: "900px",
   width: "100%",
   color: "#f0f0f0",
-  boxShadow: "0 0 20px rgba(199, 162, 84, 0.3)",
+  boxShadow: "0 0 5px rgba(199, 162, 84, 0.3)",
   display: "flex",
   flexDirection: "column",
   maxHeight: "90vh",

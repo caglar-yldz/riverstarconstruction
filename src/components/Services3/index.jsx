@@ -6,8 +6,7 @@ const data = [
     id: 1,
     icon: "fas fa-user-tie",
     frontText: "Proven Expertise",
-    backText:
-      "Years of hands-on experience in masonry, formwork, cladding, and stucco systems.",
+    backText: "Years of hands-on experience in masonry, formwork and EIFS.",
   },
   {
     id: 3,

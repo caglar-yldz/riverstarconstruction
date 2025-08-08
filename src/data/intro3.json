@@ -1,29 +1,21 @@
 [
   {
     "id": 1,
-    "title": { "first": "Innovative", "second": "Architecture" },
-    "content": "Architek have been developing a transversal approach combining architecture, urbanism and landscape.",
-    "image": "/assets/img/slid/n/1.jpg"
+    "title": { "first": "Power Lies ", "second": "In the Details" },
+    "content": "We take your projects further with High-precision formwork, durable masonry applications, and modern exterior finishing systems.",
+    "image": "/assets/img/slid/n/home1.jpg"
   },
   {
     "id": 2,
-    "title": { "first": "Classic", "second": "and Modern" },
-    "content": "Architek have been developing a transversal approach combining architecture, urbanism and landscape.",
-    "image": "/assets/img/slid/n/3.jpg"
+    "title": { "first": "Quality in Every Layer", "second": "" },
+    "content": "In formwork, brick/block masonry, and EIFS applications, we execute each layer with care—taking responsibility not just for the structure, but for its lasting quality.",
+    "image": "/assets/img/slid/n/home2.jpg"
   },
   {
     "id": 3,
-    "title": { "first": "Elegant &", "second": "Unique Design" },
-    "content": "Architek have been developing a transversal approach combining architecture, urbanism and landscape.",
-    "image": "/assets/img/slid/n/2.jpg"
-  },
-  {
-    "id": 4,
-    "title": {
-      "first": "interior",
-      "second": "design agency"
-    },
-    "content": "Architek have been developing a transversal approach combining architecture, urbanism and landscape.",
-    "image": "/assets/img/slid/n/4.jpg"
+    "title": { "first": "Experience at the", "second": "Core of Every Project" },
+    "content": "With years of field experience, we confidently take on your projects as a subcontractor—balancing cost, quality, and timeline with success.",
+    "image": "/assets/img/slid/n/home3.jpg"
   }
+
 ]

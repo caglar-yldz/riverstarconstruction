@@ -2,7 +2,7 @@
 import React from "react";
 import ConcreteFormworkCard from "../components/ConcreteFormworkCard";
 import MasonryCard from "../components/MasonryCard";
-import EIFSCard from "../components/EIFSCard";
+import EIFSCard from "../components/EIFS";
 
 import MainLayout from "../layouts/main";
 import PageHeader from "../components/Page-header";
@@ -11,13 +11,6 @@ import WorkHeader from "../../src/components/Work-header";
 const WhatWeDo = () => {
   return (
     <MainLayout>
-      {/*<PageHeader
-        title="What We Do"
-        fullPath={[
-          { id: 1, name: "home", url: "/" },
-          { id: 2, name: "Who We Are", url: "/about" },
-        ]}
-      />*/}
       <WorkHeader
         center
         title={{

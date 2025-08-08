@@ -83,26 +83,6 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </Link>
               </li>
 
-              <li className="nav-item dropdown" onClick={handleDropdown}>
-                <span
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Blog Kalkacak
-                </span>
-                <div className="dropdown-menu">
-                  <Link href="/blogs">
-                    <a className="dropdown-item">Blogs</a>
-                  </Link>
-                  <Link href="/blog-details">
-                    <a className="dropdown-item">Post Details</a>
-                  </Link>
-                </div>
-              </li>
               <li className="nav-item">
                 <Link href="/contact">
                   <a className="nav-link">Contact</a>

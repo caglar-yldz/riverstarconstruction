@@ -21,12 +21,10 @@ const MainLayout = ({ children, logoClassText }) => {
         navbar.classList.add("nav-scroll");
         logo.setAttribute("src", "/assets/img/logoson.svg");
         logo.style.width = "200px";
-        logo.style.marginLeft = "50px"; // soldan boşluk
       } else {
         navbar.classList.remove("nav-scroll");
         logo.setAttribute("src", "/assets/img/logoson.svg");
         logo.style.width = "200px";
-        logo.style.marginLeft = "50px"; // varsayılan haliyle de boşluk kalsın
       }
     });
   }, [navbarRef]);

@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { FaBuilding, FaHome } from "react-icons/fa";
+import { GiFactory } from "react-icons/gi";
+import { FaTools } from "react-icons/fa";
 
 export default function ConcreteFormworkCard() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,13 +38,17 @@ export default function ConcreteFormworkCard() {
         <div style={modalBackdrop} onClick={() => setIsOpen(false)}>
           <div style={modalContainer} onClick={(e) => e.stopPropagation()}>
             <div style={modalHeader}>
-              <h2 style={modalTitle}>🧱 Concrete Formwork</h2>
+              <h2 style={modalTitle}>
+                <span style={{ marginRight: 8 }}>
+                  <FaTools color="#c7a254" size={24} />
+                </span>
+                Concrete Formwork
+              </h2>
               <button style={closeButton} onClick={() => setIsOpen(false)}>
                 ✕
               </button>
             </div>
 
-            {/* Scrollable Modal Body */}
             <div style={modalBody} className="modal-scroll">
               <p style={modalText}>
                 We provide full-scope concrete formwork services with a focus on
@@ -66,7 +73,9 @@ export default function ConcreteFormworkCard() {
 
               <div style={infoGrid}>
                 <div style={infoCard}>
-                  <div style={iconCircle}>🏢</div>
+                  <div style={iconCircle}>
+                    <FaBuilding color="#c7a254" size={24} />
+                  </div>
                   <h4 style={infoTitle}>Commercial Projects</h4>
                   <p style={infoDesc}>
                     We deliver efficient and code-compliant formwork systems for
@@ -75,7 +84,9 @@ export default function ConcreteFormworkCard() {
                 </div>
 
                 <div style={infoCard}>
-                  <div style={iconCircle}>🏠</div>
+                  <div style={iconCircle}>
+                    <FaHome color="#c7a254" size={24} />
+                  </div>
                   <h4 style={infoTitle}>Residential Projects</h4>
                   <p style={infoDesc}>
                     From custom homes to large-scale housing developments, we
@@ -85,7 +96,9 @@ export default function ConcreteFormworkCard() {
                 </div>
 
                 <div style={infoCard}>
-                  <div style={iconCircle}>🏭</div>
+                  <div style={iconCircle}>
+                    <GiFactory color="#c7a254" size={24} />
+                  </div>
                   <h4 style={infoTitle}>Industrial Projects</h4>
                   <p style={infoDesc}>
                     We execute durable and load-bearing formwork solutions for
@@ -187,7 +200,7 @@ const modalBackdrop = {
   justifyContent: "center",
   alignItems: "center",
   zIndex: 9999,
-  padding: "20px",
+  padding: "10px",
 };
 
 const modalContainer = {
@@ -196,7 +209,7 @@ const modalContainer = {
   maxWidth: "900px",
   width: "100%",
   color: "#f0f0f0",
-  boxShadow: "0 0 20px rgba(199, 162, 84, 0.3)",
+  boxShadow: "0 0 5px rgba(199, 162, 84, 0.3)",
   display: "flex",
   flexDirection: "column",
   maxHeight: "90vh",
