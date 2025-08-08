@@ -3,19 +3,19 @@
     "id": 1,
     "title": { "first": "Power Lies ", "second": "In the Details" },
     "content": "We take your projects further with High-precision formwork, durable masonry applications, and modern exterior finishing systems.",
-    "image": "/assets/img/slid/n/home1.jpg"
+    "image": "/assets/img/slid/n/constr3.jpg"
   },
   {
     "id": 2,
     "title": { "first": "Quality in Every Layer", "second": "" },
     "content": "In formwork, brick/block masonry, and EIFS applications, we execute each layer with care—taking responsibility not just for the structure, but for its lasting quality.",
-    "image": "/assets/img/slid/n/home2.jpg"
+    "image": "/assets/img/slid/n/home3.jpg"
   },
   {
     "id": 3,
     "title": { "first": "Experience at the", "second": "Core of Every Project" },
     "content": "With years of field experience, we confidently take on your projects as a subcontractor—balancing cost, quality, and timeline with success.",
-    "image": "/assets/img/slid/n/home3.jpg"
+    "image": "/assets/img/slid/n/constr2.jpg"
   }
 
 ]
