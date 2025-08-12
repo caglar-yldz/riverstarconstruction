@@ -23,7 +23,7 @@ const Services5 = () => {
               walls to columns, beams, and slabs, our team ensures every form is
               accurately set...
             </p>
-            <Link href="/about">
+            <Link href="/whoweare">
               <a className="more mt-30">Read More</a>
             </Link>
           </div>
@@ -39,7 +39,7 @@ const Services5 = () => {
               architectural stone — for both structural and architectural
               applications...
             </p>
-            <Link href="/about">
+            <Link href="/whoweare">
               <a className="more mt-30">Read More</a>
             </Link>
           </div>
@@ -54,7 +54,7 @@ const Services5 = () => {
               specialize in high-performance EIFS applications designed to
               provide both exterior insulation and seamless finishing...
             </p>
-            <Link href="/about">
+            <Link href="/whoweare">
               <a className="more mt-30">Read More</a>
             </Link>
           </div>

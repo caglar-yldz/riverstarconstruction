@@ -1,31 +1,31 @@
 import React from "react";
 import Link from "next/link";
+import { FaUserTie, FaAward, FaClock, FaHandshake } from "react-icons/fa";
 
 const data = [
   {
     id: 1,
-    icon: "fas fa-user-tie",
+    icon: <FaUserTie />,
     frontText: "Proven Expertise",
     backText: "Years of hands-on experience in masonry, formwork and EIFS.",
   },
   {
     id: 3,
-    icon: "fas fa-award",
+    icon: <FaAward />,
     frontText: "Commitment to Quality",
     backText:
       "We deliver durable, flawless results by following the highest industry standards.",
   },
   {
     id: 2,
-    icon: "fas fa-clock",
+    icon: <FaClock />,
     frontText: "Efficient Scheduling",
     backText:
       "Smart planning and reliable crews ensure every project stays on track and on time",
   },
-
   {
     id: 4,
-    icon: "fas fa-handshake",
+    icon: <FaHandshake />,
     frontText: "Trusted by Our Clients",
     backText:
       "We've earned the trust of our partners through clean work and consistent delivery.",
@@ -47,12 +47,12 @@ const WhyChooseUs = () => {
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front bg-img">
-                    <i className={`icon ${item.icon}`}></i>
+                    <span className="icon">{item.icon}</span>
                     <h6>{item.frontText}</h6>
                   </div>
                   <div className="flip-card-back">
                     <p>{item.backText}</p>
-                    <Link href="/about">
+                    <Link href="/whoweare">
                       <a className="more custom-font mt-30">Learn More</a>
                     </Link>
                   </div>
@@ -145,6 +145,7 @@ const WhyChooseUs = () => {
           font-size: 36px;
           color: #c7a254;
           margin-bottom: 20px;
+          display: flex;
         }
 
         .more {

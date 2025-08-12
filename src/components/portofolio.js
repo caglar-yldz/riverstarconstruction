@@ -52,7 +52,7 @@ const portofolio = [
     "img": "/assets/img/resimler/3.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -124,7 +124,7 @@ const portofolio = [
     "img": "/assets/img/resimler/12.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -148,7 +148,7 @@ const portofolio = [
     "img": "/assets/img/resimler/15.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -172,7 +172,7 @@ const portofolio = [
     "img": "/assets/img/resimler/18.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -244,7 +244,7 @@ const portofolio = [
     "img": "/assets/img/resimler/27.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -268,7 +268,7 @@ const portofolio = [
     "img": "/assets/img/resimler/30.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -316,7 +316,7 @@ const portofolio = [
     "img": "/assets/img/resimler/36.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -340,7 +340,7 @@ const portofolio = [
     "img": "/assets/img/resimler/39.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -364,7 +364,7 @@ const portofolio = [
     "img": "/assets/img/resimler/42.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -388,7 +388,7 @@ const portofolio = [
     "img": "/assets/img/resimler/45.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -468,7 +468,7 @@ const portofolio = [
     "img": "/assets/img/resimler/55.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -492,7 +492,7 @@ const portofolio = [
     "img": "/assets/img/resimler/58.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -516,7 +516,7 @@ const portofolio = [
     "img": "/assets/img/resimler/61.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -540,7 +540,7 @@ const portofolio = [
     "img": "/assets/img/resimler/64.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -564,7 +564,7 @@ const portofolio = [
     "img": "/assets/img/resimler/67.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -588,7 +588,7 @@ const portofolio = [
     "img": "/assets/img/resimler/70.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -612,7 +612,7 @@ const portofolio = [
     "img": "/assets/img/resimler/73.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -636,7 +636,7 @@ const portofolio = [
     "img": "/assets/img/resimler/76.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -716,7 +716,7 @@ const portofolio = [
     "img": "/assets/img/resimler/86.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {
@@ -740,7 +740,7 @@ const portofolio = [
     "img": "/assets/img/resimler/89.jpeg",
     "title": "",
     "categories": [
-      ""
+      "formwork"
     ]
   },
   {

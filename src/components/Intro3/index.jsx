@@ -138,17 +138,12 @@ const Intro3 = () => {
           </Link>
           <Link href="#">
             <a>
-              <i className="fab fa-twitter"></i>
+              <i className="fab fa-instagram"></i>
             </a>
           </Link>
           <Link href="#">
             <a>
-              <i className="fab fa-behance"></i>
-            </a>
-          </Link>
-          <Link href="#">
-            <a>
-              <i className="fab fa-pinterest-p"></i>
+              <i className="fab fa-linkedin-in"></i>
             </a>
           </Link>
         </div>

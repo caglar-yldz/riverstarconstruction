@@ -13,7 +13,7 @@ const Portfolio2 = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 cluom current" data-tab="tab-1">
             <div className="info">
-              <h5>Forming</h5>
+              <h5>Concrete Formwork</h5>
             </div>
             <div className="more">
               <Link href="/whatwedo">
@@ -57,7 +57,7 @@ const Portfolio2 = () => {
           id="tab-1"
           className="bg-img tab-img current"
           style={{
-            backgroundImage: `url(/assets/img/portfolio/full/conc.jpg)`,
+            backgroundImage: `url(/assets/img/portfolio/full/a.png)`,
           }}
           data-overlay-dark="2"
         ></div>
@@ -66,7 +66,7 @@ const Portfolio2 = () => {
           id="tab-2"
           className="bg-img tab-img"
           style={{
-            backgroundImage: `url(/assets/img/portfolio/full/a.png)`,
+            backgroundImage: `url(/assets/img/portfolio/full/masonry.jpg)`,
           }}
           data-overlay-dark="2"
         ></div>
@@ -75,7 +75,7 @@ const Portfolio2 = () => {
           id="tab-3"
           className="bg-img tab-img"
           style={{
-            backgroundImage: `url(/assets/img/portfolio/full/sıva.jpg)`,
+            backgroundImage: `url(/assets/img/resimler/51.jpeg)`,
           }}
           data-overlay-dark="2"
         ></div>

@@ -4,7 +4,7 @@ import MainLayout from "../../layouts/main";
 import WorkHeader from "../../components/Work-header";
 import WorkThreeColumn from "../../components/Work-Three-Column";
 
-const Work2 = () => {
+const Portofolio = () => {
   React.useEffect(() => {
     document.querySelector("body").classList.add("index3");
   }, []);
@@ -24,4 +24,4 @@ const Work2 = () => {
   );
 };
 
-export default Work2;
+export default Portofolio;

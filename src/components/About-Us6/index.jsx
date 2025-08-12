@@ -127,7 +127,7 @@ const AboutUs6 = () => {
                 one part. What we promise is what we deliver: clean, complete,
                 and always on time.
               </p>
-              <Link href="/about">
+              <Link href="/whoweare">
                 <a className="btn-curve btn-bord btn-lit mt-30">
                   <span>Read More</span>
                 </a>

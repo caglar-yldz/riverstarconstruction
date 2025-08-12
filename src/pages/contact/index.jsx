@@ -1,5 +1,5 @@
 import React from "react";
-import PageHeader from "../../components/Page-header";
+import PageHeaderContact from "../../components/Page-header-contact";
 import ContactInfo from "../../components/Contact-info";
 import ContactWithMap from "../../components/Contact-with-map";
 import MainLayout from "../../layouts/main";
@@ -10,7 +10,7 @@ const Contact = () => {
   }, []);
   return (
     <MainLayout>
-      <PageHeader
+      <PageHeaderContact
         title="Contact Us"
         fullPath={[
           { id: 1, name: "home", url: "/" },

@@ -32,7 +32,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
         <div className="container">
-          <Link href="/home5">
+          <Link href="/home">
             <a className={`logo ${logoClass && logoClass}`}>
               <img
                 src={appData.lightLogo}
@@ -61,12 +61,12 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link href="/home5">
+                <Link href="/home">
                   <a className="nav-link">Home</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/about">
+                <Link href="/whoweare">
                   <a className="nav-link">Who We Are </a>
                 </Link>
               </li>
@@ -78,7 +78,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               </li>
 
               <li className="nav-item">
-                <Link href="/work2">
+                <Link href="/portofolio">
                   <a className="nav-link">Portfolio</a>
                 </Link>
               </li>

@@ -10,14 +10,14 @@ const ContactWithMap = () => {
         </div>
         <div className="col-lg-6 form">
           <form
-            action="https://formsubmit.co/caglar.alylz@gmail.com"
+            action="https://formsubmit.co/estimating@riverstarconstruction.ca"
             method="POST"
           >
             <input type="hidden" name="_captcha" value="false" />
             <input
               type="hidden"
               name="_next"
-              value="http://localhost:3000/contact/"
+              value="https://www.riverstarconstruction.ca/contact"
             />
 
             <div className="form-group">

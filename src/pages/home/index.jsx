@@ -9,7 +9,7 @@ import Portfolio2 from "../../components/Portfolio2";
 import Services5 from "../../components/Services5";
 import Intro3 from "../../components/Intro3";
 
-const Home5 = () => {
+const Home = () => {
   React.useEffect(() => {
     document.querySelector("body").classList.add("index3");
   }, []);
@@ -20,10 +20,10 @@ const Home5 = () => {
       <WhyChooseUs />
       <Portfolio2 />
       <AboutUs6 />
-      <Video />
+      {/*<Video />*/}
       <Services5 />
     </MainLayout>
   );
 };
 
-export default Home5;
+export default Home;
