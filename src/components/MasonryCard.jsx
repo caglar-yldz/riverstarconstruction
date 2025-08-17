@@ -24,7 +24,7 @@ export default function MasonryCard() {
           </div>
           <div style={imageStyle}>
             <img
-              src="/assets/img/001.jpg"
+              src="/assets/img/portfolio/full/masonry.jpg"
               alt="Concrete Formwork"
               style={imgStyle}
             />

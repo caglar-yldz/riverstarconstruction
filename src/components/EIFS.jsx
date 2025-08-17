@@ -21,7 +21,11 @@ export default function EIFSCard() {
             </button>
           </div>
           <div style={imageStyle}>
-            <img src="/assets/img/001.jpg" alt="EIFS" style={imgStyle} />
+            <img
+              src="/assets/img/resimler/51.jpeg"
+              alt="EIFS"
+              style={imgStyle}
+            />
           </div>
         </div>
       </div>

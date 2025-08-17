@@ -25,7 +25,7 @@ export default function ConcreteFormworkCard() {
           </div>
           <div style={imageStyle}>
             <img
-              src="/assets/img/001.jpg"
+              src="/assets/img/portfolio/full/a.png"
               alt="Concrete Formwork"
               style={imgStyle}
             />
